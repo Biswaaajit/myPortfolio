@@ -1,6 +1,5 @@
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import Icon from "../Components/Icon";
-import Btn from "../Components/Btn";
 import { TbBrandGithubFilled } from "react-icons/tb";
 
 function HomePage() {
@@ -22,8 +21,8 @@ function HomePage() {
 
         <div className="flex flex-col-reverse items-start gap-0 md:gap-7 lg:flex-row lg:items-center">
           <a
-            href="/biswajeetResume.pdf"
-            download="biswajeetResume.pdf"
+            href="/biswajeet_resume.pdf"
+            download="biswajee_resume.pdf"
             className="rounded-full border-2 border-purple-600 from-indigo-600 to-fuchsia-800 px-5 py-2 text-base transition-all duration-300 hover:bg-gradient-to-r lg:text-lg"
           >
             Download CV
