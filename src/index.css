@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.gradient {
+  background-image: linear-gradient(
+    to right top,
+    #0a0422,
+    #0e0627,
+    #12072b,
+    #15082f,
+    #190933
+  );
+}
+.aboutLink {
+  text-shadow: 2px 2px #9333ea;
+}
+.aboutLink:hover {
+  text-shadow: none;
+}
+@layer components {
+  .gradient-text {
+    @apply w-fit bg-gradient-to-r from-purple-600 to-purple-300 bg-clip-text text-transparent;
+  }
+  .icon {
+    @apply w-fit rounded-full border-2 border-purple-600 bg-transparent from-indigo-600 to-fuchsia-800 text-xl transition-all duration-200 hover:bg-gradient-to-r;
+  }
+  .sm-screen {
+    @apply px-4 md:px-0;
+  }
+  .btn {
+    @apply rounded-full border-2 border-purple-600 from-indigo-600 to-fuchsia-800 px-5 py-2 text-base transition-all duration-300 hover:border-none hover:bg-gradient-to-r hover:px-6 hover:py-[8px] lg:text-lg;
+  }
+  .underline-hover {
+    @apply relative w-fit from-indigo-600 to-fuchsia-800 px-1.5 after:absolute after:-bottom-[3px] after:left-0 after:h-[1.5px] after:w-0 after:rounded-full after:bg-gradient-to-r after:transition-all after:duration-300 after:content-[''] hover:after:w-full;
+  }
+}
