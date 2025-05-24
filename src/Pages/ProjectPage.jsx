@@ -27,11 +27,11 @@ function ProjectPage() {
           live="https://eco-glimpse.vercel.app/"
         />
         <Project
-          name="Tickit"
-          description="To-Do List Website"
-          imgAddress="/tickit.PNG"
-          git="https://github.com/Biswaaajit/Tickit"
-          live="https://tickit-biswajeets-projects-02e53ecd.vercel.app/"
+          name="StopOver"
+          description="Travel Tracker Website"
+          imgAddress="/stopOver.PNG"
+          git="https://github.com/Biswaaajit/stopOver"
+          live="https://stop-over-snowy.vercel.app/"
         />
         <Project
           name="Soujourn"

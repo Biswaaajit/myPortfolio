@@ -8,7 +8,8 @@ import {
 } from "react-icons/fa";
 import TechnicalSkills from "./TechnicalSkills";
 import { SiExpress, SiMongodb, SiRedux } from "react-icons/si";
-import { RiTailwindCssLine } from "react-icons/ri";
+import { RiNextjsFill, RiTailwindCssLine } from "react-icons/ri";
+import { TbBrandTypescript } from "react-icons/tb";
 
 function Technical() {
   return (
@@ -17,8 +18,12 @@ function Technical() {
         Technical Skills
       </p>
       <div className="grid grid-cols-2 place-items-center px-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-        <TechnicalSkills name="HTML" percent={95} icon={<FaHtml5 />} />
-        <TechnicalSkills name="CSS" percent={90} icon={<FaCss3Alt />} />
+        <TechnicalSkills
+          name="TypeScript"
+          percent={70}
+          icon={<TbBrandTypescript />}
+        />
+        <TechnicalSkills name="NextJs" percent={82} icon={<RiNextjsFill />} />
         <TechnicalSkills name="JavaScript" percent={90} icon={<FaJsSquare />} />
         <TechnicalSkills name="ReactJs" percent={92} icon={<FaReact />} />
         <TechnicalSkills name="NodeJs" percent={80} icon={<FaNodeJs />} />

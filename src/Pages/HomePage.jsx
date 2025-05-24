@@ -21,8 +21,8 @@ function HomePage() {
 
         <div className="flex flex-col-reverse items-start gap-0 md:gap-7 lg:flex-row lg:items-center">
           <a
-            href="/biswajeet_resume.pdf"
-            download="biswajee_resume.pdf"
+            href="https://drive.google.com/file/d/1Hf0p1nPXgKOrXDiIdHiliDRPv15YKrdt/view?usp=sharing"
+            target="_blank"
             className="rounded-full border-2 border-purple-600 from-indigo-600 to-fuchsia-800 px-5 py-2 text-base transition-all duration-300 hover:bg-gradient-to-r lg:text-lg"
           >
             Download CV
