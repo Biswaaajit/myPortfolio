@@ -1,12 +1,13 @@
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import Icon from "../Components/Icon";
 import { TbBrandGithubFilled } from "react-icons/tb";
+import Name from "./Name";
 
 function HomePage() {
   return (
     <section className="gradient flex min-h-screen w-full flex-col-reverse items-center justify-center gap-10 px-4 pb-11 pt-24 md:box-border md:h-screen md:flex-row md:justify-evenly md:gap-0 md:px-0 md:pb-0 md:pt-12">
       <div className="ml-2 w-full space-y-3 md:w-[45%] md:space-y-5">
-        <p className="grad text-2xl font-bold lg:text-4xl">I am Biswajeet</p>
+        <Name name="Biswajeet" />
 
         <p className="gradient-text lead ml-0 flex w-fit flex-wrap gap-[4vw] text-[8vw] font-bold xs:gap-4 md:-ml-2 md:flex-col md:text-5xl lg:text-7xl">
           <span>Full Stack</span>

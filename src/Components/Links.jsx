@@ -3,10 +3,12 @@ import { NavLink } from "react-router-dom";
 function Links({ children, to }) {
   return (
     <NavLink
-      className="aboutLink h-fit rounded-md from-purple-600 to-purple-300 bg-clip-text px-2 py-2 text-[10vw] font-light uppercase tracking-tight transition-all hover:bg-gradient-to-r hover:font-semibold hover:tracking-wide hover:text-transparent md:text-7xl md:hover:px-20"
+      className="relative h-fit overflow-y-hidden px-2 uppercase tracking-tight"
       to={to}
     >
-      <p>{children}</p>
+      <p className="aboutLink from-purple-600 to-purple-300 text-6xl font-light tracking-tight text-slate-100 transition-none hover:bg-gradient-to-r hover:bg-clip-text hover:font-semibold hover:tracking-wide hover:text-transparent hover:transition-all md:text-7xl">
+        {children}
+      </p>
     </NavLink>
   );
 }
