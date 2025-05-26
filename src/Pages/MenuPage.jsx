@@ -6,13 +6,14 @@ function MenuPage() {
   useGSAP(() => {
     gsap.from("#menuLink a p", {
       y: 200,
+      duration: 0.8,
       stagger: 0.25,
     });
   }, []);
   return (
     <div
       id="menuLink"
-      className="flex h-screen flex-col items-center justify-center gap-6 bg-black pt-[80px]"
+      className="flex h-screen flex-col items-center justify-center gap-6 pt-[80px]"
     >
       <Links to="/portfolio/skills">Skills</Links>
       <Links to="/portfolio/project">Projects</Links>

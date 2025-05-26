@@ -7,6 +7,7 @@ export function getNavigationDeatil(path) {
     "/portfolio/certificates": { title: "My Certificate", bgColor: "bg-black" },
     "/portfolio/services": { title: "My Services", bgColor: "bg-black" },
     "/portfolio/contact": { title: "", bgColor: "bg-black" },
+    "/portfolio/menu": { title: "", bgColor: "bg-black/60" },
   };
 
   return pageConfig[path] || { title: "", bgColor: "" };
