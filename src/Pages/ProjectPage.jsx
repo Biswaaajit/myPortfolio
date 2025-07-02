@@ -13,20 +13,6 @@ function ProjectPage() {
           live="https://watchly-rho.vercel.app/"
         />
         <Project
-          name="ShoppyGlobe"
-          description="E-commerce Website"
-          imgAddress="/shoppyglobe.PNG"
-          git="https://github.com/Biswaaajit/ShoppyGlobe"
-          live="https://shoppy-globe-biswajeets-projects-02e53ecd.vercel.app/"
-        />
-        <Project
-          name="EcoGlimpse"
-          description="Weather Website"
-          imgAddress="/ecoglimpse.PNG"
-          git="https://github.com/Biswaaajit/EcoGlimpse"
-          live="https://eco-glimpse.vercel.app/"
-        />
-        <Project
           name="StopOver"
           description="Travel Tracker Website"
           imgAddress="/stopOver.PNG"
@@ -39,6 +25,20 @@ function ProjectPage() {
           imgAddress="/soujourn.PNG"
           git="https://github.com/Biswaaajit/Soujourn"
           live="https://biswajeetsoujourn.netlify.app/"
+        />
+        <Project
+          name="ShoppyGlobe"
+          description="E-commerce Website"
+          imgAddress="/shoppyglobe.PNG"
+          git="https://github.com/Biswaaajit/ShoppyGlobe"
+          live="https://shoppy-globe-biswajeets-projects-02e53ecd.vercel.app/"
+        />
+        <Project
+          name="EcoGlimpse"
+          description="Weather Website"
+          imgAddress="/ecoglimpse.PNG"
+          git="https://github.com/Biswaaajit/EcoGlimpse"
+          live="https://eco-glimpse.vercel.app/"
         />
         <Project
           name="LitEra"

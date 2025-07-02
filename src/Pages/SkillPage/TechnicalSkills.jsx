@@ -16,7 +16,7 @@ function TechincalSkills({ name, percent, icon }) {
     );
   }, []);
   return (
-    <div className="mb-10 w-fit space-y-2 rounded-lg px-6 py-4 shadow-md shadow-purple-700 xl:mb-[70px]">
+    <div className="mb-10 w-fit space-y-2 rounded-lg bg-[#140c1cc8] px-6 py-4 shadow-md shadow-purple-800 xl:mb-[70px]">
       <div
         ref={currentRef}
         className="html flex h-20 w-20 cursor-pointer items-center justify-center rounded-full sm:h-28 sm:w-28"

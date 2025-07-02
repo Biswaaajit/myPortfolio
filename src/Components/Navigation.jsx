@@ -46,7 +46,7 @@ function Navigation() {
 
   return (
     <div
-      className={`fixed top-0 z-50 flex w-full items-center justify-between rounded-full px-[5%] py-4 shadow-lg shadow-purple-900/50 ${bgColor ? bgColor : "bg-transparent"}`}
+      className={`fixed top-0 z-50 flex w-full items-center justify-between rounded-b-[40px] px-[5%] py-4 shadow-lg shadow-purple-900/50 ${bgColor ? bgColor : "bg-transparent"}`}
     >
       <img
         src="/logo.png"

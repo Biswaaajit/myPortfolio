@@ -1,8 +1,20 @@
+import { useGSAP } from "@gsap/react";
 import Service from "./Service";
+import gsap from "gsap";
 
 function ServicePage() {
+  useGSAP(() => {
+    gsap.from("#service div", {
+      x: 150,
+      opacity: 0,
+      stagger: 0.2,
+    });
+  }, []);
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center gap-8 bg-black pb-8 pt-40">
+    <div
+      id="service"
+      className="flex min-h-screen w-full flex-col items-center justify-center gap-8 overflow-hidden bg-black pb-8 pt-40"
+    >
       <Service
         title="Frontend Development"
         primary="I create responsive, high-performance web interfaces using React.js, Tailwind CSS, and JavaScript. My focus is on delivering sleek, user-friendly, and interactive designs optimized for all devices."

@@ -3,8 +3,9 @@ import ServiceInfo from "./ServiceInfo";
 
 function Service({ title, primary, secondary }) {
   const [show, setShow] = useState(false);
+
   return (
-    <div className="relative flex h-fit w-[90%] items-center justify-center rounded-lg transition-all hover:mb-8 hover:shadow-lg hover:shadow-fuchsia-700 md:w-[80%]">
+    <div className="relative flex h-fit w-[90%] items-center justify-center overflow-hidden rounded-lg transition-none hover:mb-8 hover:shadow-lg hover:shadow-fuchsia-700 hover:transition-all md:w-[80%]">
       <div className="absolute top-0 z-20 h-full w-full rounded-lg bg-gradient-to-r from-blue-900 to-fuchsia-600 p-4"></div>
       <div className="relative z-40 m-[2px] flex w-full items-center gap-6 rounded-lg bg-zinc-950 p-4 lg:p-8">
         <div className="space-y-2 lg:space-y-4">

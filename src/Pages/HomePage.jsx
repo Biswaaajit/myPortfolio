@@ -29,7 +29,7 @@ function HomePage() {
     });
   }, []);
   return (
-    <section className="gradient flex min-h-screen w-full flex-col-reverse items-center justify-center gap-10 px-4 pb-11 pt-24 md:box-border md:h-screen md:flex-row md:justify-evenly md:gap-0 md:px-0 md:pb-0 md:pt-12">
+    <section className="gradient flex min-h-screen w-full flex-col-reverse items-center justify-center gap-10 overflow-hidden px-4 pb-11 pt-24 md:box-border md:h-screen md:flex-row md:justify-evenly md:gap-0 md:px-0 md:pb-0 md:pt-12">
       <div
         ref={infoRef}
         className="ml-2 w-full space-y-3 md:w-[45%] md:space-y-5"
