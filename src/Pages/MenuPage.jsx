@@ -13,11 +13,11 @@ function MenuPage() {
   return (
     <div
       id="menuLink"
-      className="flex h-screen flex-col items-center justify-center gap-6 pt-[80px]"
+      className="flex h-screen flex-col items-center justify-center gap-10 pt-[80px]"
     >
       <Links to="/portfolio/skills">Skills</Links>
       <Links to="/portfolio/project">Projects</Links>
-      <Links to="/portfolio/services">Services</Links>
+      {/* <Links to="/portfolio/services">Services</Links> */}
       <Links to="/portfolio/certificates">Certificates</Links>
       <Links to="/portfolio/contact">Contact</Links>
     </div>
